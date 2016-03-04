@@ -14,7 +14,7 @@
     "express": "^4.13.4",
     "express-session": "^1.13.0",
     "express-validator": "^2.19.1",
-    "node-light": "^2.0.9"
+    "node-light": "^2.0.11"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
