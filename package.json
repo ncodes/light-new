@@ -1,7 +1,7 @@
 {
-  "name": "testlight",
+  "name": "light-new",
   "version": "1.0.0",
-  "description": "",
+  "description": "A base project for using the node-light web framework",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
