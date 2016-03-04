@@ -1,0 +1,19 @@
+{
+  "name": "testlight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kennedy Idialu <kennedyidialu@gmail.com> (ncodes.wordpress.com)",
+  "license": "ISC",
+  "dependencies": {
+    "connect-redis": "^3.0.2",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "express-validator": "^2.19.1",
+    "node-light": "^2.0.3"
+  }
+}

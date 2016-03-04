@@ -1,0 +1,7 @@
+/**
+ * App settings
+ */
+
+module.exports = {
+	
+}

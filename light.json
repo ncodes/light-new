@@ -1,0 +1,15 @@
+{	
+	"_light" : {		
+		"directories": {
+			"config": "app/config"
+		},
+		"nunjucks": {
+			"escape": true,
+			"watch": true,
+			"variableStart": null,
+			"variableEnd": null
+		}
+	},
+
+	"appName": "testApp"
+}
