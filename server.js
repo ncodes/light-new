@@ -14,5 +14,4 @@ Light.on(__dirname, function(err, app){
 		light.log.error(err);
 		res.serverError(err);
 	});
-	
 });
