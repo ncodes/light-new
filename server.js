@@ -1,11 +1,7 @@
-var Light = require("node-light"),
-	yargs = require('yargs').argv;
+var Light = require("node-light")
 
 // load light
 Light.on(__dirname, function(err, app){
-
-	// set port
-	var port = yargs.port || light.config.PORT || 1337; 
 
 	// handle 404 errors
 	app.use(function(req, res, next) {
@@ -18,8 +14,4 @@ Light.on(__dirname, function(err, app){
 		light.log.error(err);
 		res.serverError(err);
 	});
-
-	// start server
-	app.listen(port);
-	console.log('Server started on port:' + port);
 });
