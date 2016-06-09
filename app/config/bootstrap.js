@@ -3,6 +3,6 @@
  * the light will not start up
  */
 
-module.exports = function(done) {
+module.exports = (done) => {
 	done()
 }

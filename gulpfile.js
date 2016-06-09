@@ -6,6 +6,7 @@ var nodemon = require('gulp-nodemon');
 var fs      = require("fs");
 var yargs = require('yargs').argv;
 var env = require('gulp-env');
+var babel = require('gulp-babel');
 
 var nodeMonArgs = [];
 if (yargs.port) {
@@ -19,6 +20,12 @@ gulp.task('less', function() {
         }))
         .pipe(rename('style.css'))
         .pipe(gulp.dest('./assets/css'));
+});
+
+gulp.task('build', function(){
+    return gulp.src('./**/*.js')
+    .pipe(babel())
+    .pipe(gulp.dest('build'))
 });
 
 gulp.task('develop', function() {
