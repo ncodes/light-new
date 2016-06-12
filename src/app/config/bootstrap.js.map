@@ -1,0 +1,1 @@
+{"version":3,"sources":["config/bootstrap.js"],"names":[],"mappings":";;;;;;;AAKA,OAAO,OAAP,GAAiB,UAAS,IAAT,EAAe;AAC/B;AACA,CAFD","file":"config/bootstrap.js","sourcesContent":["/**\n * Initialize resources here. Call the `done` to continue, otherwise\n * the light will not start up\n */\n\nmodule.exports = function(done) {\n\tdone()\n}"],"sourceRoot":"/source/"}

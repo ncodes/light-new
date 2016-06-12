@@ -1,7 +1,7 @@
 {	
 	"_light" : {		
 		"directories": {
-			"config": "app/config"
+			"config": "./app/config"
 		},
 		"nunjucks": {
 			"escape": true,

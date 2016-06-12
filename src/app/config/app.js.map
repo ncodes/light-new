@@ -1,0 +1,1 @@
+{"version":3,"sources":["config/app.js"],"names":[],"mappings":";;;;;;AAIA,OAAO,OAAP,GAAiB,EAAjB","file":"config/app.js","sourcesContent":["/**\n * App settings\n */\n\nmodule.exports = {\n\t\n}"],"sourceRoot":"/source/"}
