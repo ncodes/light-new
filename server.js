@@ -1,8 +1,11 @@
 var Light = require("node-light"),
-	yargs = require('yargs').argv;
+	path  = require("path"),
+	polyfill = require('babel-polyfill'),
+	sourceMap = require('source-map-support/register'),
+	yargs = require("yargs").argv;
 
 // load light
-Light.on(__dirname, function(err, app){
+Light.on(path.join(__dirname, "src"), function(err, app){
 
 	// set port
 	var port = yargs.port || light.config.PORT || 1337; 

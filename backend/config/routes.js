@@ -11,7 +11,8 @@ var rootRouter = express.Router();
 
 // define route
 rootRouter.get('/', services.helper.static('index.html'));
-// rootRouter.get('/user', controllers.user.get)
+rootRouter.get('/user', controllers.user.index);
+//
 
 // exports routers
 module.exports.root = rootRouter;

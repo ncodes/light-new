@@ -1,0 +1,1 @@
+{"version":3,"sources":["config/database.js"],"names":[],"mappings":";;;;;;AAIA,OAAO,OAAP,GAAiB;;;AAGhB,YAAW,QAAQ,GAAR,CAAY,SAAZ,IAAyB;AAHpB,CAAjB","file":"config/database.js","sourcesContent":["/**\n * Database settings\n */\n\nmodule.exports = {\n\t\n\t// redis connection string\n\tREDIS_URL: process.env.REDIS_URL || \"redis://localhost:6379\"\n}"],"sourceRoot":"/source/"}
