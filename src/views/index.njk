@@ -1,0 +1,39 @@
+{% extends "layouts/main.njk" %} {% block title %} Authorization - Ellcrys {% endblock %} {% block page_script %}
+<script type="text/javascript" src="/dist/app-bundle.js"></script>
+{% endblock %} {% block bodyAttr %} {% endblock %} {% block body %}
+<section id="app" class="authorize">
+	<section id="header">
+		<div class="logo">
+			<img src="/imgs/logo_1x.png" alt="">
+		</div>
+	</section>
+	
+	{% if not error %}
+	<div class="content">
+		<div class="title">
+			<h1>Log In To Your Account</h1>
+		</div>
+		<div class="form">
+			<form>
+				<div class="form-group">
+					<label for="password">Email address</label>
+					<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+				</div>
+				<div class="form-group">
+					<label for="password">Password</label>
+					<input type="password" class="form-control" id="password" aria-describedby="passwordHelp" placeholder="Enter password">
+				</div>
+				<button type="submit" class="btn btn-primary">Log In</button>
+			</form>
+		</div>
+		<div class="signup-area">
+			<a href="#">CREATE AN ACCOUNT</a>
+		</div>
+	</div>
+	{% else %}
+		<div class="error alert alert-danger">
+			{{ error }}
+		</div>
+	{% endif %}
+</section>
+{% endblock %}

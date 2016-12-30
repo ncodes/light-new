@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>{% block title %}Title{% endblock %}</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	{% block head %}
+		<script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+		<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="/node_modules/fixed-data-table/dist/fixed-data-table.css">
+		<link rel="stylesheet" href="/css/style.css">
+		<script type="text/javascript" src="/bower_components/tether/dist/js/tether.min.js"></script>
+		<script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	{% endblock %}
+	{% block page_script %}
+	{% endblock %}
+</head>
+<body {% block bodyAttr %}{% endblock %} >
+	{% block body %}{% endblock %}
+	{% block tail %}
+	
+	{% endblock %}
+</body>
+</html>

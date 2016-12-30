@@ -11,7 +11,7 @@
 	// render default 404 page 	
 	// res.notFound()
  	if (!data) {
- 		return res.render('404.html')
+ 		return res.render('errors/404.html')
  	}
 
  	// render custom view, and send data

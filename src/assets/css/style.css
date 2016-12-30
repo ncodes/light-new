@@ -1,0 +1,73 @@
+@font-face {
+  font-family: BrandonTextThin;
+  src: url(../fonts/BrandonText_Thin.otf); }
+
+@font-face {
+  font-family: BrandonTextLight;
+  src: url(../fonts/BrandonText_Light.otf); }
+
+@font-face {
+  font-family: BrandonTextRegular;
+  src: url(../fonts/BrandonText_Regular.otf); }
+
+@font-face {
+  font-family: BrandonTextMedium;
+  src: url(../fonts/BrandonText_Medium.otf); }
+
+@font-face {
+  font-family: BrandonTextBold;
+  src: url(../fonts/BrandonText_Bold.otf); }
+
+html {
+  height: 100%; }
+
+body {
+  height: 100%;
+  font-family: "BrandonTextLight"; }
+
+section#app.authorize section#header {
+  width: 100%;
+  height: 60px; }
+  section#app.authorize section#header .logo {
+    width: 120px;
+    margin: auto;
+    position: relative;
+    top: 30px; }
+  section#app.authorize section#header .logo img {
+    width: 120px; }
+
+section#app.authorize div.content {
+  width: 350px;
+  padding-bottom: 20px;
+  margin: auto;
+  margin-top: 50px;
+  border: 1px solid #efefef;
+  border-radius: 4px; }
+
+section#app.authorize div.content .title {
+  width: auto;
+  padding: 15px;
+  border-bottom: 1px solid #efefef;
+  text-align: center;
+  font-family: BrandonTextRegular; }
+  section#app.authorize div.content .title h1 {
+    font-size: 17px; }
+
+section#app.authorize div.content .form {
+  padding: 15px; }
+
+section#app.authorize div.content .signup-area {
+  width: auto;
+  border-top: 1px solid #efefef;
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 15px; }
+  section#app.authorize div.content .signup-area a {
+    font-family: BrandonTextMedium;
+    color: #000000;
+    font-size: 15px; }
+
+section#app.authorize div.error {
+  width: auto;
+  margin: 30px;
+  padding: 10px; }

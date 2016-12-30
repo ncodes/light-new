@@ -1,1 +1,1 @@
-{"version":3,"sources":["config/app.js"],"names":[],"mappings":";;;;;;AAIA,OAAO,OAAP,GAAiB,EAAjB","file":"config/app.js","sourcesContent":["/**\n * App settings\n */\n\nmodule.exports = {\n\t\n}"],"sourceRoot":"/source/"}
+{"version":3,"sources":["config/app.js"],"names":["module","exports","viewExt"],"mappings":";;AAAA;;;;AAIAA,OAAOC,OAAP,GAAiB;AAChBC,WAAS;AADO,CAAjB","file":"app.js","sourcesContent":["/**\n * App settings\n */\n\nmodule.exports = {\n\tviewExt: \"njk\"\n}"]}

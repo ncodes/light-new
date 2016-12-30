@@ -23,7 +23,7 @@ module.exports = {
 	],
 
 	// define middleware here.
-	// Add middleware by name to the `this.order` object
+	// Add middleware by name to the `this.order` object 
 	// according to preferred order of execution
 	middlewares: {
 

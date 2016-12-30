@@ -10,8 +10,8 @@ var express	= require('express');
 var rootRouter = express.Router();
 
 // define route
-rootRouter.get('/', services.helper.static('index.html'));
 rootRouter.get('/user', controllers.user.index);
+
 //
 
 // exports routers

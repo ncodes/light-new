@@ -12,7 +12,7 @@ module.exports = function serverError (data, options) {
     res.status(500)
 
     if (!data && !options) {
-        return res.render('500.html');
+        return res.show('errors/500');
     }
 
     // log error
@@ -28,7 +28,7 @@ module.exports = function serverError (data, options) {
             })
         } 
 
-        return res.render('500.html');
+        return res.show('errors/500');
     }
 
     // error: json

@@ -4,5 +4,7 @@
  * App settings
  */
 
-module.exports = {};
+module.exports = {
+  viewExt: "njk"
+};
 //# sourceMappingURL=app.js.map
